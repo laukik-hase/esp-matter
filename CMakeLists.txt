@@ -355,7 +355,7 @@ else()
         list(APPEND EXCLUDE_SRCS_LIST "${MATTER_SDK_PATH}/src/platform/ESP32/ESP32SecureCertDACProvider.cpp")
     endif()
 
-    if (NOT CONFIG_USE_ESP32_ECDSA_PERIPHERAL)
+    if (NOT CONFIG_USE_ESP32_ECDSA_PERIPHERAL AND NOT CONFIG_SECURE_ENABLE_TEE)
         list(APPEND EXCLUDE_SRCS_LIST "${MATTER_SDK_PATH}/src/platform/ESP32/ESP32CHIPCryptoPAL.cpp")
     endif()
 endif()
