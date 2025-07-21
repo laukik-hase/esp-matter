@@ -1,0 +1,10 @@
+key,type,encoding,value
+chip-factory,namespace,,
+discriminator,data,u32,2995
+iteration-count,data,u32,10000
+salt,data,string,gZSCbcoWI2L7PSohRWTe0fdZc+5+GYn2dGcoigKS0ZA=
+vendor-id,data,u32,65522
+product-id,data,u32,32769
+serial-num,data,string,c640c3be467e017d27f127b8fd5f1d28
+verifier,data,string,bEVsEjOL3mSjyFG8ZwPHwQTBpF/WRR6NwJxYHyD4mg0E151ALXVK0qDFURmnNK9yY94MLNojm8WwrXVy4hDYpHm4OD+Jsc4mLrYIqOzUc+M9KAZJegX13/N7rPBE0IgKRQ==
+cert-dclrn,file,binary,test/certification-declaration/Chip-Test-CD-FFF2-8001.der
