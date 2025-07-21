@@ -1,0 +1,10 @@
+key,type,encoding,value
+chip-factory,namespace,,
+discriminator,data,u32,1866
+iteration-count,data,u32,10000
+salt,data,string,gZSCbcoWI2L7PSohRWTe0fdZc+5+GYn2dGcoigKS0ZA=
+vendor-id,data,u32,65522
+product-id,data,u32,32769
+serial-num,data,string,416744c05ab855d8cf77cac9f2543bd9
+verifier,data,string,TZE0MZOGs0MbE9fEOiPD0u3ckrTyb/oSpfmHf7hmBn4EJa04iSVZE1+YkzlxULHH6nYKER2/kzNErWYE8KQh49Xfsxvbpkr9JhNCS3sciNsueV5SA7oUNGqVYKzXF3zXQw==
+cert-dclrn,file,binary,connectedhomeip/connectedhomeip/credentials/test/certification-declaration/Chip-Test-CD-FFF2-8001.der
